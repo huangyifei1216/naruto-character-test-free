@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN" class="access-granted">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f4ee">
+  <meta name="description" content="免费体验 24 道现代生活情境题，测出你在火影忍者世界里更接近哪位角色，并生成八维忍者人格报告。">
+  <meta property="og:title" content="你是火影忍者里的哪个角色？">
+  <meta property="og:description" content="不是测忍术：24道情境题，匹配12位角色与八维人格报告。">
+  <meta property="og:type" content="website">
+  <title>你是火影忍者里的哪个角色？</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/characters/naruto-anime.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app-shell" aria-live="polite"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <canvas id="shareCanvas" width="1080" height="1440" hidden></canvas>
+
+  <!-- UI tokens and mobile layout adapted from Open Design's official Mobile App example (MIT). -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

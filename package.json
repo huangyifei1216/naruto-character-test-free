@@ -1,0 +1,12 @@
+{
+  "name": "magical-character-archetype-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8789",
+    "check": "node --check app.js && node --check data.js && node scripts/check.mjs",
+    "simulate": "node scripts/simulate.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

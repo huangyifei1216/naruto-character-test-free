@@ -1,0 +1,6 @@
+dist/
+.wrangler/
+assets/characters/*
+!assets/characters/*-anime.png
+assets/marketing/*
+!assets/marketing/naruto-cover-base.png
